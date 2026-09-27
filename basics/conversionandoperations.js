@@ -38,3 +38,26 @@ let negValue=-value;
 
 console.log(negValue);
 
+
+let str1="hello";
+let str2="piyush";
+
+let str3=str1+str2;
+
+console.log(str3);
+
+console.log("2"+1+1);//agar pehle string hai toh string me hi consider hoga =211
+console.log(1+1+"2")//agr pehle number hai toh woh add hojayega uss ke baad string ke sth likha jayega =22
+console.log(2+"1")//21
+//but preffered hai sahi tarike se likho bracket use krke precendence ke accn
+
+console.log("true")//true
+console.log(+true)//1
+//console.log(true+)//error
+
+let gameCounter=100;
+gameCounter++;//post fix
+console.log("gameCounter");
+
+
+
