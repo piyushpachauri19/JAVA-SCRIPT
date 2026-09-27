@@ -1,6 +1,6 @@
 //  Primitive
 
-//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+//  7 types : String, Number, Boollen, null, undefined, Symbol, BigInt
 
 const score = 100
 const scoreValue = 100.3
@@ -34,3 +34,31 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+//++++++++++++++++++++++++++++++++++++++++
+//memory
+
+//stack (primitive type me use hoota hai)so copy jata hai ,   heap(non-primitive type)actual ya refernce jata hai
+
+let myyoutubename="piyushpachauri"
+
+let anothername=myyoutubename;
+anothername="hackandjack";
+
+console.log(myyoutubename);
+console.log(anothername);
+
+//**************//
+
+let userone = {
+    email: "user@google.com",
+    upi: "userrr@uihvu"
+}
+
+let usertwo =userone;
+
+usertwo.email="playwithcode"
+
+console.log(userone);
+console.log(usertwo);
