@@ -1,3 +1,5 @@
+//"use strict"//
+
 let name ="John Doe"; 
 let age = 30;
 let isloggedIn = true;
